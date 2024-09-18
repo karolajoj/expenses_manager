@@ -7,13 +7,26 @@ environment:
   sdk: '>=3.4.3 <4.0.0'
 
 dependencies:
+  build_runner: ^2.4.11
+  dartz: ^0.10.1
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_localizations:
+    sdk: flutter
+  get_it: ^7.7.0
+  google_fonts: ^6.2.1
+  hive: ^2.2.3
+  hive_generator: ^2.0.1
+  path_provider: ^2.1.4
+  pedantic: ^1.11.1
+  wiredash: ^2.2.1
 
 dev_dependencies:
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
